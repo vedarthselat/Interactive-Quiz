@@ -1,0 +1,193 @@
+@import "./reset.css";
+
+
+body{
+    background-color:rgb(16, 55, 67);
+}
+
+main h1{
+    color:black;;
+    font-size:2em;
+    font-weight:600;
+}
+
+.main-box{
+    margin-top:2em;
+    margin-left:20em;
+    margin-right:20em;
+    padding:1.15em;
+    border:0.15em solid white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    border-radius:0.5em;
+}
+
+
+
+.rps p{
+    color:white;
+    font-size:1.6em;
+    font-weight:600;
+    margin-top:0.15em;
+    margin-bottom:0.15em;
+}
+
+.score{
+    background-color:white;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius:1em;
+}
+
+.losses{
+    background-color:white;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius:1em;
+}
+
+.currentGame{
+    background-color:white;
+    padding-left:1em;
+    padding-right:1em;
+    border-radius:1em;
+}
+
+.currentGame p:nth-child(1){
+    font-size: 0.8em;
+    color:rgb(4, 4, 244);
+    margin-top:0.5em;
+}
+
+.currentGame p:nth-child(2){
+    margin-left:0.9em;
+    font-size:3.5em;
+    font-weight:700;
+    color:rgb(162, 162, 17);
+}
+
+
+.losses p:nth-child(1){
+    font-size: 0.8em;
+    color:rgb(4, 4, 244);
+    margin-top:0.5em;
+}
+
+.losses p:nth-child(2){
+    margin-left:0.9em;
+    font-size:3.5em;
+    font-weight:700;
+    color:red;
+}
+
+.score p:nth-child(1){
+    font-size: 0.8em;
+    color:rgb(4, 4, 244);
+    margin-top:0.5em;
+}
+
+.score p:nth-child(2){
+    margin-left:0.7em;
+    font-size:3.5em;
+    font-weight:700;
+    color:green;
+}
+
+.feedback{
+    background-color:white;
+    margin-left:20em;
+    margin-right:20em;
+    padding:1.20em;
+    margin-top:2em;
+    border-radius:0.5em;
+}
+.button button{
+    width:10em;
+    height:10em;
+    border-radius:5em;
+    transition-duration:150ms;
+}
+
+.fa-hand-back-fist, .fa-hand, .fa-hand-scissors{
+    font-size:5em;
+}
+
+.blue{
+    border:1em solid #33FFF8;
+    margin-left:35em;
+}
+
+.maroon{
+    border:1em solid rebeccapurple;
+    margin-left:14em;
+}
+
+.pink{
+    border:1em solid rgb(184, 92, 107);
+    margin-left:47em;
+    margin-top:5em;
+}
+
+.button button:hover{
+    width:10.5em;
+    height:10.5em;
+    border-radius:7em;
+    background-color:rgb(189, 185, 185);
+}
+
+
+
+.buttonType{
+    display: inline-block; 
+    
+    background-color:white; 
+    color: black; 
+    text-decoration: none; 
+    border-radius: 5em; 
+    
+    font-size:1.1em;
+    font-weight:600;
+    transition-duration:150ms;
+}
+
+#restart{
+    border: 0.3em solid violet; 
+    padding: 2.4em 0.9em;
+}
+
+#scoress{
+    border: 0.3em solid rgb(191, 162, 0); 
+    padding-left:2em;
+    padding-right:2em;
+    padding-top:2.2em;
+}
+
+
+.buttons{
+    display:flex;
+    margin-top:3em;
+    justify-content:space-between;
+    margin-left:3em;
+    margin-right:3em;
+}
+
+.buttonType:hover{
+    background-color:rgb(189, 185, 185);
+}
+
+.redBg{
+    background-color:rgb(195, 71, 71);
+    border: 0.2em solid red;
+}
+
+.yellowBg{
+    background-color:yellow;
+    border: 0.2em solid rgb(117, 117, 21);
+}
+
+.greenBg{
+    background-color:rgb(4, 135, 4);
+    border: 0.2em solid rgb(6, 79, 6);
+}
+

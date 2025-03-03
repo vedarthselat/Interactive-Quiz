@@ -1,0 +1,37 @@
+@import "./reset.css";
+
+:root{
+    --secondary_text_color:#009494;
+    --primary_text-color:#007A7A;
+    --secondary-background-color:black;
+    --primary-background-color:white;
+}
+
+header nav{
+    color:white;
+    font-weight:700;
+    display:flex;
+    background-color:var(--secondary-background-color,black);
+    justify-content:space-around;
+    padding:1.25em;
+    border-radius:1em;
+}
+
+header nav p{
+    font-size:1.3em;
+    color:#787878;
+}
+
+header nav div a{
+    margin-left:2.5em;
+    margin-right:2.5em;
+    font-size:1.3em;
+    text-decoration:none;
+    color:white;
+    transition-duration:150ms;
+}
+
+header nav div a:hover{
+    color:var(--secondary_text_color,#009494 );
+box-shadow: 0.075em 0.075em 0.25em var(--secondary_text_color, #009494), -0.075em -0.075em 0.25em var(--secondary_text_color,#009494);
+}

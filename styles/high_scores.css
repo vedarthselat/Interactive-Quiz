@@ -1,0 +1,99 @@
+@import "./reset.css";
+
+
+body{
+    background-color:rgb(16, 55, 67);
+}
+
+main h1{
+    font-size:3em;
+    font-weight:600;
+    margin-top:1em;
+    margin-left:2em;
+    color:rgb(212, 212, 212);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left:13em;
+    margin-right:10em;
+    margin-top:3em;
+    background-color:black;
+    grid-gap:0.1em;
+}
+
+.heading1{
+    border:0.2em solid white;
+}
+.heading2{
+    border:0.2em solid white;
+}
+
+.heading3{
+    border:0.2em solid white;
+}
+
+.heading1 h2, .heading2 h2, .heading3 h2{
+    margin-left:3em;
+    font-size:2.5em;
+    font-weight:900;
+    color:white;
+}
+
+div p{
+    color:white;
+    font-size:1.75em;
+    margin-left:1.5em;
+}
+
+.grid div{
+    border:0.2em solid white;
+}
+
+.gold{
+    background-color:gold;
+}
+
+.gold p{
+    color:black;
+}
+
+.silver{
+    background-color:silver;
+}
+
+.silver p{
+    color:black;
+}
+
+
+.bronze{
+    background-color:#CE8946;
+}
+
+.bronze p{
+    color:black;
+}
+
+.buttonType{
+    display: inline-block; 
+    padding: 2.5em 1em;
+    background-color:white; 
+    color: black; 
+    text-decoration: none; 
+    border-radius: 5em; 
+    font-size:1.1em;
+    margin-left:72em;
+    font-weight:600;
+    transition-duration:150ms;
+    border:0.3em solid rebeccapurple;
+    margin-top:3em;
+}
+
+.buttonType:hover{
+    padding: 2.8em 1.2em;
+    border-radius:7em;
+    background-color:rgb(189, 185, 185);
+}
+

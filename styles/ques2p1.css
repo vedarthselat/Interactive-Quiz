@@ -1,0 +1,56 @@
+@import "./reset.css";
+
+body{
+    background: radial-gradient(circle, white, grey );
+}
+
+fieldset legend{
+    margin-left:3em;
+    font-size:2em;
+    background-color:white;
+}
+
+fieldset{
+    margin-top:2em;
+    background-color:white;
+    border-radius:1em;
+    height:15em;
+}
+
+input{
+    margin-left:3em;
+}
+
+
+label{
+    font-size:2em;
+}
+
+input, label{
+    margin-top:0.8em;
+    margin-bottom:0.4em;
+}
+
+button{
+    margin-left:3em;
+    margin-top:1.5em;
+    color:white;
+    background-color:black;
+    border-radius:1.5em;
+}
+
+h1{
+    font-size:7em;
+}
+
+.error{
+    color:red;
+}
+
+span{
+    margin-left:3em;
+}
+
+.hidden{
+    display :none;
+}

@@ -1,0 +1,50 @@
+@import "./reset.css";
+
+body{
+    background: radial-gradient(circle, white, grey );
+}
+
+fieldset{
+    background-color:white;
+    border-radius:0.9em;
+    padding:5em;
+    margin-top:3em;
+}
+
+fieldset legend{
+    font-size:2em;
+    margin-left:4em;
+}
+
+fieldset label{
+    font-size:1.3em;
+}
+
+fieldset #file{
+    margin-left:1em;
+}
+
+fieldset div{
+    margin-top:1em;
+}
+
+fieldset button{
+    margin-top:1em;
+    background:radial-gradient(circle, white, grey );
+    border-radius:1em;
+}
+fieldset button:hover{
+    background:radial-gradient(circle, white, #009494 );
+}
+
+.red{
+    background-color:red;
+}
+
+.hidden{
+    display:none;
+}
+
+.error{
+    color:red;
+}
